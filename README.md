@@ -1,8 +1,23 @@
-# React + Vite
+# Olypo
+Bienvenido a Olypo, un sitio web de productos deportivos construido con React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías Utilizadas
 
-Currently, two official plugins are available:
+- **React**: Olypo está construido con React, una biblioteca de JavaScript popular para crear interfaces de usuario dinámicas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React Router**: Para gestionar las rutas y la navegación entre diferentes páginas dentro de la aplicación.
+
+- **Styled Components**: He utilizado Styled Components para el diseño y estilización de los componentes de Olypo, lo que permite un desarrollo más modular y mantenible.
+
+## Características Principales
+
+- Páginas interactivas y fluidas gracias a React Router.
+
+- Diseño atractivo y personalizado con Styled Components.
+
+- Modo oscuro para una experiencia visual más relajante durante la noche.
+## Probar Olypo
+¿Listo para explorar Olypo? ¡Pruébalo ahora mismo!
+- **[Olypo Legacy](https://molinalk.github.io/olympo)**: Descubre la versión original de Olypo con sus características clásicas y diseño.
+- **[Olypo](https://molinalk.github.io/olympo-refactor)**: Explora la última versión de Olypo
+
