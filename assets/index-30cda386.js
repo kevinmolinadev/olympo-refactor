@@ -262,7 +262,7 @@ Error generating stack: `+i.message+`
         font-size:1.2rem;
         bottom:1rem;
     }
-`,Wd=({product:e})=>{const{title:t,price:n,img:r}=e,o=.15,{pathname:i}=ps();return E.jsxs(O0,{children:[E.jsx("div",{children:E.jsx(I0,{src:r,alt:t})}),E.jsxs(D0,{children:[E.jsx("p",{children:t}),E.jsxs("div",{children:[E.jsxs(Ka,{$ofert:!0,children:["Antes: $",n]}),E.jsxs(Ka,{children:["Ahora: $",(n-n*o).toFixed(2)]}),E.jsx(M0,{to:`${i}/${t}`,children:"Comprar"})]})]})]})},F0=Z.main`
+`,Wd=({product:e})=>{const{title:t,price:n,img:r}=e,o=.15,{pathname:i}=ps();return E.jsxs(O0,{children:[E.jsx("div",{children:E.jsx(I0,{src:r,alt:t})}),E.jsxs(D0,{children:[E.jsx("p",{children:t}),E.jsxs("div",{children:[E.jsxs(Ka,{$ofert:!0,children:["Antes: $",n]}),E.jsxs(Ka,{children:["Ahora: $",(n-n*o).toFixed(2)]}),E.jsx(M0,{to:`${i!=="/"?i:"/products"}/${t}`,children:"Comprar"})]})]})]})},F0=Z.main`
     background-color:${({theme:e})=>e.content};
     display:flex;
     flex-direction:column;
