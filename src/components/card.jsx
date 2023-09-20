@@ -113,7 +113,7 @@ const Card = ({ product }) => {
                 <div>
                     <Price $ofert >Antes: ${price}</Price>
                     <Price  >Ahora: ${(price - (price * discount)).toFixed(2)}</Price>
-                    <Buttom to={`${pathname}/${title}`} >Comprar</Buttom>
+                    <Buttom to={`${pathname!=="/"?pathname:"/products"}/${title}`} >Comprar</Buttom>
                 </div>
             </Description>
         </Container>

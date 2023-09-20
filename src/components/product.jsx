@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { useEffect } from "react";
 
 const Content = styled.main`
+    background-color:${({theme})=>theme.content};
     padding:1rem;
     width:100%;
     display:flex;
@@ -19,6 +20,8 @@ const Content = styled.main`
             display:flex;
             flex-direction:column;
             gap:1rem;
+            color:${({theme})=>theme.title};
+            transition:none;
             &>:last-child{
                 font-weight:600;
             }
