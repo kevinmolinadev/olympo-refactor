@@ -402,6 +402,7 @@ Error generating stack: `+i.message+`
     padding-bottom:1rem;
     flex-grow:1;
 `,K0=()=>E.jsx(H0,{children:E.jsx(Q0,{children:ms.map((e,t)=>E.jsx(Wd,{product:e},t))})}),Y0=Z.main`
+    background-color:${({theme:e})=>e.content};
     padding:1rem;
     width:100%;
     display:flex;
@@ -417,6 +418,8 @@ Error generating stack: `+i.message+`
             display:flex;
             flex-direction:column;
             gap:1rem;
+            color:${({theme:e})=>e.title};
+            transition:none;
             &>:last-child{
                 font-weight:600;
             }
