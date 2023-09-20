@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-const Content = styled.div`
+const Content = styled.header`
     width:100%;
     background-color:${({ theme }) => theme.bg};
     display:flex;

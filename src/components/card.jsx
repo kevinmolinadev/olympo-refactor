@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { buttonColor } from "../styles/variables";
+import { Link, useResolvedPath } from "react-router-dom";
 const Container = styled.div`
     width:clamp(250px, 35%, 380px);
     height:250px;
@@ -70,7 +71,7 @@ const Price = styled.p`
         font-size:1.1rem;
     }
 `
-const Buttom = styled.button`
+const Buttom = styled(Link)`
     margin-left:auto;
     margin-right:2px;
     border:none;
@@ -78,6 +79,7 @@ const Buttom = styled.button`
     position:relative;
     bottom:5px;
     border-radius:5px;
+    text-decoration:none;
     background-color:${buttonColor};
     color:${({theme})=>theme.text};
     transition:color,background-color;
@@ -100,6 +102,7 @@ const Buttom = styled.button`
 const Card = ({ product }) => {
     const { title, price, img } = product;
     const discount = 0.15;
+    const {pathname}=useResolvedPath()
     return (
         <Container>
             <div>
@@ -110,7 +113,7 @@ const Card = ({ product }) => {
                 <div>
                     <Price $ofert >Antes: ${price}</Price>
                     <Price  >Ahora: ${(price - (price * discount)).toFixed(2)}</Price>
-                    <Buttom onClick={() => alert("Se compro el producto: " + title)} >Comprar</Buttom>
+                    <Buttom to={`${pathname}/${title}`} >Comprar</Buttom>
                 </div>
             </Description>
         </Container>
