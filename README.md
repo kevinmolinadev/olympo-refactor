@@ -18,6 +18,6 @@ Bienvenido a Olypo, un sitio web de productos deportivos construido con React.
 - Modo oscuro para una experiencia visual más relajante durante la noche.
 ## Probar Olypo
 ¿Listo para explorar Olypo? ¡Pruébalo ahora mismo!
-- **[Olypo Legacy](https://molinalk.github.io/olympo)**: Descubre la versión original de Olypo con sus características clásicas y diseño.
-- **[Olypo](https://molinalk.github.io/olympo-refactor)**: Explora la última versión de Olypo
+- **[Olypo Legacy](https://kevinmolinadev.github.io/olympo)**: Descubre la versión original de Olypo con sus características clásicas y diseño.
+- **[Olypo](https://kevinmolinadev.github.io/olympo-refactor)**: Explora la última versión de Olypo
 

@@ -29,7 +29,7 @@ const Footer =()=>{
     return(
         <Content>
             <p>Kevin Molina Lazarte</p>
-            <a href="https://github.com/molinalk/olympo-refactor" target="_blank "><img src="https://img.icons8.com/fluency/38/000000/github.png" alt="github" /></a>
+            <a href="https://github.com/kevinmolinadev/olympo-refactor" target="_blank "><img src="https://img.icons8.com/fluency/38/000000/github.png" alt="github" /></a>
             <a href="https://www.linkedin.com/in/kevin-molina-lazarte" target="_blank "><img src="https://img.icons8.com/fluency/35/linkedin.png" alt="linkedin" /></a>
         </Content>
     )
